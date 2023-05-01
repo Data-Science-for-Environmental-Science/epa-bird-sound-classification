@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "epa-bird-sound-classification"
+version = "0.1.0"
+description = ""
+authors = ["Alex Antonison <adantonison@gmal.com>"]
+readme = "README.md"
+packages = [{include = "epa_bird_sound_classification"}]
+
+[tool.poetry.dependencies]
+python = "~3.10"
+awswrangler = "^3.0.0"
+boto3 = "^1.26.123"
+jupyter = "^1.0.0"
+notebook = "^6.5.4"
+ruff = "^0.0.263"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
