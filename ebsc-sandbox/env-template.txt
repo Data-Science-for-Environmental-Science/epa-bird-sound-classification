@@ -1,0 +1,2 @@
+role_arn=XXXX
+epa_bucket=XXXX

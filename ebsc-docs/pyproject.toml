@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "epa-bird-sound-classification"
+name = "ebsc-docs"
 version = "0.1.0"
 description = ""
 authors = ["Alex Antonison <adantonison@gmal.com>"]
 readme = "README.md"
-packages = [{include = "epa_bird_sound_classification"}]
 
 [tool.poetry.dependencies]
 python = "~3.10"
@@ -17,6 +16,7 @@ python-dotenv = "^1.0.0"
 nbqa = "^1.7.0"
 black = "^23.3.0"
 isort = "^5.12.0"
+diagrams = "^0.23.3"
 
 
 [build-system]
