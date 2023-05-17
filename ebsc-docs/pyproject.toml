@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "ebsc-sandbox"
+name = "ebsc-docs"
 version = "0.1.0"
 description = ""
 authors = ["Alex Antonison <adantonison@gmal.com>"]
